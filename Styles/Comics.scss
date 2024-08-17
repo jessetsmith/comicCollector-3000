@@ -37,19 +37,19 @@
     color: #666;
 }
 
-.characters {
+.character-links {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.characters h4 {
+.character-links h4 {
     margin-bottom: 2px;
     font-size: 1.2em;
     color: #333;
 }
 
-.characters li:hover {
+.character-links li:hover {
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@
     color: white;
     border: none;
     padding: 0.5em 1em;
-    margin-top: 1em;
+    margin-top: 5em;
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.2s;

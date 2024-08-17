@@ -9,7 +9,7 @@ export default function Comics({ data, onCharacterClick }) {
                     <h3>{comic.title}</h3>
                     <p>{comic.description}</p>
                     {comic.characters.items.length > 0 && (
-                        <div className="characters">
+                        <div className="character-links">
                             <h4>Characters:</h4>
 
                             <div className="character-buttons">

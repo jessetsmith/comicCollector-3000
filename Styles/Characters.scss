@@ -1,49 +1,22 @@
 .characters {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1em;
   padding: 1em;
 
-  .character-item {
-    background: white;
-    border: 1px solid #ddd;
-    padding: 1em;
-    width: 200px;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-    cursor: pointer;
-
-    &:hover {
-      transform: scale(1.05);
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    h3 {
-      font-size: 1.2em;
-      margin: 0.5em 0;
-    }
-
-    p {
-      font-size: 0.9em;
-      color: #666;
-    }
-  }
 }
 
 .characterCard {
   padding: 1em;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 20em;
   border: 2px solid black;
   box-shadow: 4px 4px black;
   filter: grayscale(100);
+  width: 20vw;
 
   transition: 0.2s linear;
 
