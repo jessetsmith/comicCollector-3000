@@ -3,12 +3,12 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  /* background: linear-gradient(
+  background: linear-gradient(
          45deg,
          rgba(0, 110, 193, 0.3),
          rgba(0, 115, 138, 0.1)
-       ) no-repeat fixed center, url("./images/spiderman.jpg") no-repeat fixed
-       center; */
+       ) no-repeat fixed center, url("../images/bg_images/erik-mclean-0_wXoeCDry0-unsplash.jpg") no-repeat fixed
+       center;
   background-size: cover;
 }
 
