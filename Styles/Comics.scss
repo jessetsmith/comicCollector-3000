@@ -1,0 +1,92 @@
+.comics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.comic-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 20vw; /* Use viewport width for responsiveness */
+    max-width: 600px; /* Ensure it doesn't get too wide on large screens */
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.comic-item:hover {
+    transform: scale(1.05);
+}
+
+.comic-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.comic-item h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.comic-item p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.characters {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.characters h4 {
+    margin-bottom: 2px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.characters li:hover {
+    text-decoration: none;
+}
+
+.comic-link-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.comic-link-button:hover {
+    background-color: #0056b3;
+}
+
+ .character-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3em;
+
+    button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      font-family: 'Roboto', sans-serif;
+      font-size: 12px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
