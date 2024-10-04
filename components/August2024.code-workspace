@@ -2,6 +2,36 @@
     "folders": [
         {
             "path": ".."
+        },
+        {
+            "path": "../../../../../Coding Projects/CENTRØ"
+        },
+        {
+            "path": "../../../../../Coding Projects/MessageReader"
+        },
+        {
+            "path": "../../../../../Coding Projects/snowman game"
+        },
+        {
+            "path": "../../../../../Coding Projects/three js/basics"
+        },
+        {
+            "path": "../../.."
+        },
+        {
+            "path": "../../../../../Websites/Portfolio-New"
+        },
+        {
+            "path": "../../../../../Coding Projects/Console Games/dotnet-console-games"
+        },
+        {
+            "path": "../../../../../Coding Projects/NeverLost"
+        },
+        {
+            "path": "../../../../../Websites/Mandi-Portfolio"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "MarvelComics_Build"
+    }
 }
