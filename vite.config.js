@@ -8,4 +8,5 @@ export default defineConfig({
   resolve: {
     extensions: [".js", ".json", ".jsx", ".mjs", ".ts", ".tsx"],
   },
+  base: "/comicCollector-3000/",
 });
