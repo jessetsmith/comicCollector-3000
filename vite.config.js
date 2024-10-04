@@ -10,7 +10,7 @@ export default defineConfig({
   },
   base: "./",
   build: {
-    outDir: "/",
+    outDir: "./",
     rollupOptions: {
       output: {
         format: "es", // Ensure ES module format
