@@ -8,13 +8,13 @@ export default defineConfig({
   resolve: {
     extensions: [".js", ".json", ".jsx", ".mjs", ".ts", ".tsx"],
   },
-  base: "./src",
-  build: {
-    outDir: "./src",
-    rollupOptions: {
-      output: {
-        format: "es", // Ensure ES module format
-      },
-    },
-  },
+  base: "/",
+  // build: {
+  //   outDir: "/",
+  //   rollupOptions: {
+  //     output: {
+  //       format: "es", // Ensure ES module format
+  //     },
+  //   },
+  // },
 });
