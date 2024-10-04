@@ -8,9 +8,9 @@ export default defineConfig({
   resolve: {
     extensions: [".js", ".json", ".jsx", ".mjs", ".ts", ".tsx"],
   },
-  base: "./",
+  base: "/",
   build: {
-    outDir: "./",
+    outDir: "/",
     rollupOptions: {
       output: {
         format: "es", // Ensure ES module format
